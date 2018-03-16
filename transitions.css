@@ -1,0 +1,65 @@
+body{
+	background: skyblue;
+}
+
+.contenedor{
+	margin: 0 auto;
+	width: 600px;
+	font-family: sans-serif;
+	display: flex;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	margin-right: 250px;
+}
+/*Transiciones*/
+.transicion{
+	/*Transiciones*/
+	transition: .3s;
+	/* transitio: .3s opacity ease;
+	transition-duration: .3s;
+	transition-property: opacity;
+	transition-timing-function: ease;*/
+}
+
+.opacity {
+	opacity: .4;
+}
+
+.opacity:hover{
+	opacity: 1;
+}
+
+.fuente:hover{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.colores:hover{
+	color: white;
+	background: black;
+}
+
+/*Transformaciones*/
+.rotacion:hover{
+	transform: rotate(360deg);
+}
+
+.escala:hover{
+	transform: scale(3);
+}
+
+.sesgado:hover{
+	transform: skew(40deg);
+}
+
+.traslacion:hover{
+	transform: translateX(100px);
+}
+
+.mixtas:hover{
+	transform: rotate(40deg) scale(2) skew(45deg) translateX(50px);
+}
