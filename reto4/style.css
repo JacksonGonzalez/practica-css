@@ -75,3 +75,21 @@ body{
 .tipo-h .caja {
 	padding-top: 150px;
 }
+
+.tipo-i {
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+.height{
+	height: 500px;
+}
+
+.tipo-j{
+	line-height: 500px;
+}
+
+.tipo-k > *{
+	display: inline;
+	vertical-align: middle;
+}
